@@ -1,0 +1,1 @@
+{"uuid":"38bfdb2d-b358-4071-b4e0-f3982929edd7","name":"auto-awesome","children":["58531ced-a009-41fc-9ef2-122090bf335e"],"befores":[{"name":"setupClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1655830287873,"stop":1655830288601}],"afters":[],"links":[],"start":1655830287835,"stop":1655830299959}

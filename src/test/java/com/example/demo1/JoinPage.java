@@ -5,11 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MainPage {
+public class JoinPage {
 
-    @FindBy(xpath = "//span[text()='Join']")
-    public WebElement joinButton;
-    public MainPage(WebDriver driver) {
+    @FindBy(css = "div.enroll-join-hero")
+    public WebElement imageJoinHero;
+
+    public JoinPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 }
